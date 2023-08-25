@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Geologica:wght@600&display=swap');
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.item-button button {
+  margin-top: 20px;
+  width: 200px;
+  background-color:  #001529;
+  transition-duration: 0.4s;
+  -webkit-text-fill-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.item-button button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 40px;
+  width: 40px;
+}
+
+.category{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  background-color: gainsboro;
+
+}
+.category img {
+  margin-left: 10px;
+  padding: 8%;
+}
+.category-active {
+  background-color: rgb(0,21,41);
+  
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.register input{
+  width: 350px !important;
+}
+
+.register img{
+  height: 200px;
+  width: 200px;
+
+}
+
